@@ -23,7 +23,7 @@ const quickActions = [
 
 const stats = [
   { icon: Zap, label: 'XP', color: '#F59E0B' },
-  { icon: BookOpen, label: "So'zlar", color: '#3B9ED9' },
+  { icon: BookOpen, label: "So'zlar", color: 'var(--papa-600)' },
   { icon: Target, label: 'Daraja', color: '#22C55E' },
   { icon: Flame, label: 'Seriya', color: '#F59E0B' },
 ];
@@ -81,7 +81,7 @@ export default function HomePage() {
           className="text-4xl lg:text-5xl font-black font-display leading-tight"
           style={{ color: 'var(--primary-900)' }}
         >
-          Sprechen mit Spaß{' '}
+          PaPa.De — Sprachen mit Spaß{' '}
           <motion.span
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: [0.8, 1.1, 1], opacity: 1 }}

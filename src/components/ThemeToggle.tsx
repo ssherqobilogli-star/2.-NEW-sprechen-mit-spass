@@ -2,7 +2,7 @@ import { useStore } from '../store/useStore';
 import type { ThemeColor, ThemeMode } from '../store/useStore';
 
 const colorOptions: { value: ThemeColor; label: string }[] = [
-  { value: 'ocean', label: 'Okean' },
+  { value: 'ocean', label: 'PaPa.De' },
   { value: 'forest', label: 'O\'rmon' },
 ];
 

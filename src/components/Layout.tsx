@@ -5,6 +5,7 @@ import BottomNav from './BottomNav';
 import NavigationRail from './NavigationRail';
 import BlobShape from './BlobShape';
 import XPPopup from './XPPopup';
+import ParrotFlyover from './ParrotFlyover';
 
 const pageTransition = {
   initial: { opacity: 0, y: 12 },
@@ -50,6 +51,9 @@ export default function Layout() {
 
       {/* XP Popup */}
       <XPPopup />
+
+      {/* Sahifalar orasida uchib o'tuvchi to'tiqush */}
+      <ParrotFlyover />
     </div>
   );
 }

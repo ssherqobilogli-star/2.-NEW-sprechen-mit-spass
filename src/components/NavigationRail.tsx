@@ -26,12 +26,15 @@ export default function NavigationRail() {
       {/* Logo */}
       <div className="p-6 flex items-center gap-3">
         <div
-          className="w-10 h-10 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-md"
+          className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden shadow-md"
           style={{ background: 'linear-gradient(135deg, var(--primary-500), var(--primary-700))' }}
         >
-          S
+          <img src="/icon-192.png" alt="PaPa.De" className="w-8 h-8 object-contain" />
         </div>
-        <span className="font-bold text-base text-[var(--text-primary)]">Sprechen mit Spaß</span>
+        <div className="flex flex-col leading-tight">
+          <span className="font-display font-extrabold text-base text-[var(--text-primary)]">PaPa.De</span>
+          <span className="text-[11px] font-medium" style={{ color: 'var(--papa-orange-600)' }}>Sprachen mit Spaß</span>
+        </div>
       </div>
 
       {/* Nav Links */}

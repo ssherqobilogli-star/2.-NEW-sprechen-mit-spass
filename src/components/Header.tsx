@@ -19,10 +19,10 @@ export default function Header() {
       {/* Left: Logo + Level badge (mobile only) */}
       <div className="flex items-center gap-3 lg:hidden">
         <div
-          className="w-8 h-8 rounded-xl flex items-center justify-center text-white font-black text-sm"
+          className="w-9 h-9 rounded-xl flex items-center justify-center overflow-hidden"
           style={{ background: 'linear-gradient(135deg, var(--primary-500), var(--primary-700))' }}
         >
-          S
+          <img src="/icon-192.png" alt="PaPa.De" className="w-7 h-7 object-contain" />
         </div>
         <div
           className="px-2 py-1 rounded-md text-xs font-bold"
